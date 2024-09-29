@@ -1,7 +1,7 @@
 ## Random Guessing Game Flowchart
 
 ```mermaid
-flowchart TD
+graph TD;
     Start([Start]) --> Generate[Generate Random Number]
     Generate --> Input[Get User Input]
     Input --> Check[Check User Input]
@@ -15,6 +15,7 @@ flowchart TD
     Feedback1 --> Input
     Feedback2 --> Input
     Feedback3 --> End([End])
+```
 
     Step 4: Step Descriptions
 Start: The beginning of the game.
