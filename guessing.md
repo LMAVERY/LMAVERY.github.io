@@ -15,7 +15,8 @@ flowchart TD
     Feedback1 --> Input
     Feedback2 --> Input
     Feedback3 --> End([End])
-    
+    ```
+
 
 Step 4: Step Descriptions
 Start: The beginning of the game.
