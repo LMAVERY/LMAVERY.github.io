@@ -16,7 +16,6 @@ flowchart TD
     Feedback2 --> Input
     Feedback3 --> End([End])
 
-
     Step 4: Step Descriptions
 Start: The beginning of the game.
 Generate Random Number: The computer generates a random number within a specified range (e.g., 1 to 100).
