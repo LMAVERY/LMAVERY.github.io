@@ -1,21 +1,21 @@
 ## Random Guessing Game Flowchart
 
 ```mermaid
-graph TD;
+flowchart TD
     Start([Start]) --> Generate[Generate Random Number]
     Generate --> Input[Get User Input]
     Input --> Check[Check User Input]
     Check -->|Valid| Compare[Compare Guess with Random Number]
     Check -->|Invalid| Input[Get User Input Again]
     
-    Compare -->|Too High| Feedback1[Provide "Too High" Feedback]
-    Compare -->|Too Low| Feedback2[Provide "Too Low" Feedback]
-    Compare -->|Correct| Feedback3[Provide "Correct" Feedback]
+    Compare -->|Too High| Feedback1[Provide 'Too High' Feedback]
+    Compare -->|Too Low| Feedback2[Provide 'Too Low' Feedback]
+    Compare -->|Correct| Feedback3[Provide 'Correct' Feedback]
     
     Feedback1 --> Input
     Feedback2 --> Input
     Feedback3 --> End([End])
-```
+
 
     Step 4: Step Descriptions
 Start: The beginning of the game.
